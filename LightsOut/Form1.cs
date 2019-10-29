@@ -48,28 +48,27 @@ namespace LightsOut
             this.tableLayoutPanel1.Size = new System.Drawing.Size(641, 407);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // label1
+            // scoreLabel
             // 
             this.scoreLabel.AutoSize = true;
             this.scoreLabel.Location = new System.Drawing.Point(762, 42);
-            this.scoreLabel.Name = "label1";
+            this.scoreLabel.Name = "scoreLabel";
             this.scoreLabel.Size = new System.Drawing.Size(68, 20);
             this.scoreLabel.TabIndex = 1;
-            this.scoreLabel.Text = "Score: 0";
+            this.scoreLabel.Text = "Clicks: 0";
             // 
-            // label2
+            // infoLabel
             // 
             this.infoLabel.AutoSize = true;
             this.infoLabel.Location = new System.Drawing.Point(762, 102);
-            this.infoLabel.Name = "label2";
-            this.infoLabel.Size = new System.Drawing.Size(51, 20);
+            this.infoLabel.Name = "infoLabel";
+            this.infoLabel.Size = new System.Drawing.Size(0, 20);
             this.infoLabel.TabIndex = 2;
-            this.infoLabel.Text = "";
             // 
-            // button1
+            // restartButton
             // 
             this.restartButton.Location = new System.Drawing.Point(766, 172);
-            this.restartButton.Name = "button1";
+            this.restartButton.Name = "restartButton";
             this.restartButton.Size = new System.Drawing.Size(150, 38);
             this.restartButton.TabIndex = 3;
             this.restartButton.Text = "Play Again";
@@ -98,8 +97,7 @@ namespace LightsOut
                     Button button = new Button();
                     button.Visible = true;
                     button.Dock = DockStyle.Fill;
-                   
-
+                  
                     tableLayoutPanel1.Controls.Add(button, i, j);
                 }
             }
@@ -152,7 +150,7 @@ namespace LightsOut
         }
         private void increaseScore()
         {
-            scoreLabel.Text = "Score: " + logic.clicks;
+            scoreLabel.Text = "Clicks: " + logic.clicks;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -162,5 +160,7 @@ namespace LightsOut
             infoLabel.Text = "";
             restartButton.Visible = false;
         }
+
+
     }
 }

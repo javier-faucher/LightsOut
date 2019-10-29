@@ -25,22 +25,25 @@ namespace LightsOut
             {
                 for (int j = 0; j < 5; j++)
                 {
-                    //bool check = rand.Next(3) == 0;
+                    #region generate completly random grid 
+                    bool check = rand.Next(3) == 0;
+                    grids[i, j] = check;
+                    #endregion
+                    #region Create grid which is nearly completed
+                    //if (i < 2 && j < 2)
+                    //{
+                    //    grids[i, j] = false;
+                    //}
+                    //else
+                    //{
+                    //    grids[i, j] = true;
+                    //}
+                    //if (i == 1 && j == 1)
+                    //{
+                    //    grids[i, j] = true;
+                    //}
 
-                    //grids[i,j] = check;
-
-                    if (i < 2 && j < 2)
-                    {
-                        grids[i, j] = false;
-                    }
-                    else
-                    {
-                        grids[i, j] = true;
-                    }
-                    if (i == 1 && j == 1)
-                    {
-                        grids[i, j] = true;
-                    }
+                    #endregion
                 }
             }
             grid = grids;
