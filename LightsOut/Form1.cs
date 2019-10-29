@@ -125,11 +125,11 @@ namespace LightsOut
                 int column = tableLayoutPanel1.GetPositionFromControl(button).Column;
                 if (logic.grid[column,row])
                 {
-                    button.BackColor = Color.FromArgb(255, 232, 232);
+                    button.BackColor = Color.DarkGray;
                 }
                 else
                 {
-                    button.BackColor = Color.DarkGray;
+                    button.BackColor = Color.FromArgb(255, 232, 232);
                 }
             }
         }
