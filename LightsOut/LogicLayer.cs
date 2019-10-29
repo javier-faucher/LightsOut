@@ -16,6 +16,10 @@ namespace LightsOut
         {
              generateGrid();
         }
+
+        /// <summary>
+        /// This method creates a grid of 5x5 of booleans with a random distribution of true and false values
+        /// </summary>
         public void generateGrid()
         {
             clicks = 0;
@@ -48,7 +52,11 @@ namespace LightsOut
             }
             grid = grids;
         }
-        
+        /// <summary>
+        /// This method loops through all the cells in the grid and checks if all of them have been set to true
+        /// If they have then it returns true, if not then it returns false
+        /// </summary>
+        /// <returns></returns>
         public bool checkCompleted()
         {
             boxesLeft = 0;
@@ -66,7 +74,14 @@ namespace LightsOut
             }
             return complete;
         }
-        public bool[,] onClick(int [] position)
+
+        /// <summary>
+        /// This method takes in the position in the grid to be changed and the flips the value of the boolean at that position
+        /// as well as the values of the cells surrounding that cell
+        /// </summary>
+        /// <param name="position"></param>
+        /// <returns></returns>
+        public void  onClick(int [] position)
         {
             clicks++;
             int row = position[0];
@@ -106,7 +121,6 @@ namespace LightsOut
             {
 
             }
-            return grid;
         }
     }
 

@@ -88,6 +88,9 @@ namespace LightsOut
             this.PerformLayout();
 
         }
+        /// <summary>
+        /// This method initializes and adds a button to the each of the cells in the tablePanelLayout 
+        /// </summary>
         private void InitializeTableLayoutPanel()
         {
             for (int i = 0; i < tableLayoutPanel1.ColumnCount; i++)
@@ -102,6 +105,7 @@ namespace LightsOut
                 }
             }
         }
+        
         private void AssignClickEvent()
         {
             foreach (Control c in tableLayoutPanel1.Controls.OfType<Button>())
@@ -110,7 +114,9 @@ namespace LightsOut
             }
         }
 
-
+        /// <summary>
+        /// This method sets the colour of each of the buttons in the tableLayoutPanel using the logicLayers grid 
+        /// </summary>
         public void setState()
         {
             foreach (Button button in tableLayoutPanel1.Controls.OfType<Button>())
@@ -127,9 +133,19 @@ namespace LightsOut
                 }
             }
         }
+        /// <summary>
+        /// This method handles a button in the tablePanelLayout being clicked.
+        /// It starts by passing the position of the click in the grid to logic layer.
+        /// It then updates the state of the tableLayoutPanel using the logic layers grid
+        /// It finally then checks if the game has been completed, if it has then it displays a success message
+        /// and a play again button
+        /// If the the game is not complete it displays the number of cells left to to turn on.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void OnClick(object sender, EventArgs e)
         {
-            increaseScore();
+            UpdateScore();
             Button button = sender as Button;
             int column = tableLayoutPanel1.GetPositionFromControl(button).Column;
             int row = tableLayoutPanel1.GetPositionFromControl(button).Row;
@@ -145,14 +161,20 @@ namespace LightsOut
             {
                 infoLabel.Text = "Boxes left to turn on : " + logic.boxesLeft;
             }
-            
-
         }
-        private void increaseScore()
+        /// <summary>
+        ///This method updates the score message
+        /// </summary>
+        private void UpdateScore()
         {
             scoreLabel.Text = "Clicks: " + logic.clicks;
         }
-
+        /// <summary>
+        /// This method handles the on click of the play again button.
+        /// It generates a new random grid, updates the state of the tableLayoutPanel and disapears
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
             logic.generateGrid();
