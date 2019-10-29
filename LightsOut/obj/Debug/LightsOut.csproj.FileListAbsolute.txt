@@ -1,0 +1,10 @@
+C:\Users\javie\source\repos\LightsOut\LightsOut\bin\Debug\LightsOut.exe.config
+C:\Users\javie\source\repos\LightsOut\LightsOut\bin\Debug\LightsOut.exe
+C:\Users\javie\source\repos\LightsOut\LightsOut\bin\Debug\LightsOut.pdb
+C:\Users\javie\source\repos\LightsOut\LightsOut\obj\Debug\LightsOut.csprojAssemblyReference.cache
+C:\Users\javie\source\repos\LightsOut\LightsOut\obj\Debug\LightsOut.Form1.resources
+C:\Users\javie\source\repos\LightsOut\LightsOut\obj\Debug\LightsOut.Properties.Resources.resources
+C:\Users\javie\source\repos\LightsOut\LightsOut\obj\Debug\LightsOut.csproj.GenerateResource.cache
+C:\Users\javie\source\repos\LightsOut\LightsOut\obj\Debug\LightsOut.csproj.CoreCompileInputs.cache
+C:\Users\javie\source\repos\LightsOut\LightsOut\obj\Debug\LightsOut.exe
+C:\Users\javie\source\repos\LightsOut\LightsOut\obj\Debug\LightsOut.pdb

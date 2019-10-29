@@ -1,0 +1,17 @@
+C:\Users\javie\source\repos\LightsOut\LightsOutTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\javie\source\repos\LightsOut\LightsOutTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\javie\source\repos\LightsOut\LightsOutTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\javie\source\repos\LightsOut\LightsOutTest\bin\Debug\LightsOutTest.dll
+C:\Users\javie\source\repos\LightsOut\LightsOutTest\bin\Debug\LightsOutTest.pdb
+C:\Users\javie\source\repos\LightsOut\LightsOutTest\bin\Debug\LightsOut.exe
+C:\Users\javie\source\repos\LightsOut\LightsOutTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\javie\source\repos\LightsOut\LightsOutTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\javie\source\repos\LightsOut\LightsOutTest\bin\Debug\LightsOut.pdb
+C:\Users\javie\source\repos\LightsOut\LightsOutTest\bin\Debug\LightsOut.exe.config
+C:\Users\javie\source\repos\LightsOut\LightsOutTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\javie\source\repos\LightsOut\LightsOutTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\javie\source\repos\LightsOut\LightsOutTest\obj\Debug\LightsOutTest.csprojAssemblyReference.cache
+C:\Users\javie\source\repos\LightsOut\LightsOutTest\obj\Debug\LightsOutTest.csproj.CoreCompileInputs.cache
+C:\Users\javie\source\repos\LightsOut\LightsOutTest\obj\Debug\LightsOutTest.csproj.CopyComplete
+C:\Users\javie\source\repos\LightsOut\LightsOutTest\obj\Debug\LightsOutTest.dll
+C:\Users\javie\source\repos\LightsOut\LightsOutTest\obj\Debug\LightsOutTest.pdb
